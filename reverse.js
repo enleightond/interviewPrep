@@ -1,6 +1,6 @@
 // This is a function that reverses a string
 
-function revstr(str){
+function revStr(str){
 	var newStr = '';
 
 	for (var i = str.length -1; i >= 0 ; i--) {
@@ -9,4 +9,4 @@ function revstr(str){
 	return newStr;
 }
 
-revstr("django"); // ognajd
+revStr("django"); // ognajd
